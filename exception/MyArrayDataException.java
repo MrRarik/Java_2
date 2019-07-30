@@ -1,8 +1,7 @@
-package exceptions;
+package exception;
 
 public class MyArrayDataException extends NumberFormatException {
-    int i;
-    int j;
+    int i, j;
 
     MyArrayDataException(int i, int j) {
         this.i = i;
